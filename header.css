@@ -8,7 +8,7 @@ header{
   background-color: white;
 }
 .header{
-  margin: 10px;
+  margin: 12px;
 }
 #logo-section{
   width: 220px;
@@ -74,11 +74,10 @@ header{
 #left-navigation{
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
   background-color: rgb(255, 255, 255);
   width: 220px;
   position: fixed;
-  top: 72px;
+  top: 60px;
   left: 0px;
   bottom: 0px;
   justify-content: space-evenly;
@@ -86,14 +85,30 @@ header{
 #library, #browse{
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 0px;
+  align-items: flex-start;
 }
 #library-heading, #browse-heading{
-  color: rgb(82, 82, 82);
-  font-weight: 150;
+  color: rgb(158, 158, 158);
+  font-weight: 100;
+  font-size: 16px;
+  margin-bottom: 6px;
+  padding-left: 40px;
 }
 .browse-btn{
   background-color: white;
+  color: rgb(100, 100, 100);
   border: none;
-
+  display: flex;
+  gap: 6px;
+  padding-left: 42px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+.browse-btn:hover{
+  border-left: 3px solid rgb(27, 110, 255);
+  color: rgb(27, 110, 255);
+  background-color: rgb(246, 246, 246);
 }

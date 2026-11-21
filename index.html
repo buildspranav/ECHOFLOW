@@ -7,6 +7,7 @@
   <script src="https://kit.fontawesome.com/d0b35162d4.js"></script>
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="icon" type="image/svg+sml" href="echo-flow-favicon.svg">
 </head>
 <body>
@@ -31,7 +32,7 @@
     <section id="left-navigation">
       <navigation id="browse">
         <div id="browse-heading">BROWSE</div>
-        <button class="browse-btn"><i class="fa-regular fa-house"></i>Home</button>
+        <button class="browse-btn active"><i class="fa-regular fa-house"></i>Home</button>
         <button class="browse-btn"><i class="fa-brands fa-itunes-note"></i>Albums</button>
         <button class="browse-btn"><i class="fa-solid fa-volume"></i>Genres</button>
         <button class="browse-btn"><i class="fa-solid fa-microphone"></i>Artists</button>
@@ -47,7 +48,41 @@
     </section>
     <section id="main-section">
       <div id="curated-playlists"></div>
-      <div id="top-charts"></div>
+      <div id="top-charts">
+        <div>
+          <p id="top-charts-heading">Top Charts</p>
+        </div>
+        <div class="top-chart-song-container">
+          <p>1</p>
+          <img class="song-poster" src="https://i1.sndcdn.com/artworks-mxzp2WLdcy4ydsBy-yUSjKg-t1080x1080.jpg">
+          <div id="song-details">
+            <div>MF Gabru!</div>
+            <div>Karan Aujla</div>
+          </div>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="top-chart-song-container">
+          <p>2</p>
+          <img class="song-poster" src="https://i1.sndcdn.com/artworks-mxzp2WLdcy4ydsBy-yUSjKg-t1080x1080.jpg">
+          <div id="song-details">
+            <div>MF Gabru!</div>
+            <div>Karan Aujla</div>
+          </div>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="top-chart-song-container">
+          <p>3</p>
+          <img class="song-poster" src="https://i1.sndcdn.com/artworks-mxzp2WLdcy4ydsBy-yUSjKg-t1080x1080.jpg">
+          <div id="song-details">
+            <div>MF Gabru!</div>
+            <div>Karan Aujla</div>
+          </div>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
       <div id="trending-artists"></div>
       <div id="recommended-albums"></div>
     </section>

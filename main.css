@@ -1,0 +1,45 @@
+#main-section{
+  margin-left: 230px;
+  margin-top: 70px;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  border-radius: 12px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+#curated-playlists{
+  height: 300px;
+  width: 500px;
+  background-color: rgb(27, 191, 250);
+  border-radius: 24px;
+}
+#top-charts{
+  height: 300px;
+  width: 1fr;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+.box{
+  height: 4px;
+  border: 1px solid black;
+  width: 20px;
+  
+}
+.song-poster{
+  height: 60px;
+  border-radius: 10px;
+}
+.top-chart-song-container{
+  padding: 6px 0px 6px 0px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  gap: 20px;
+}
+.song-details{
+  display: flex;
+  flex-direction: column;
+  
+}

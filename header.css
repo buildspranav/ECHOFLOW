@@ -6,6 +6,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  top: 0px;
 }
 .header{
   margin: 12px;
@@ -107,8 +108,12 @@ header{
   padding-bottom: 10px;
   border-radius: 8px;
 }
-.browse-btn:hover{
+.browse-btn:hover, .active{
   border-left: 3px solid rgb(27, 110, 255);
   color: rgb(27, 110, 255);
   background-color: rgb(246, 246, 246);
+  transition-duration: 0.08s;
+}
+.nav-btn:hover{
+  border-bottom: 3px solid rgb(27, 110, 255);
 }
